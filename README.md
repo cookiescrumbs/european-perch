@@ -7,13 +7,6 @@ Perch is the HTTP wrapper for [Northern Pike](https://github.com/cookiescrumbs/n
 ![Perch](./perch.jpg "European Perch")
 
 
-## Installation
-
-## Usage
-
-## Development
-
-
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/cookiescrumbs/perch.
 
