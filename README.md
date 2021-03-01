@@ -2,9 +2,17 @@
 
 An API that Converts latitude,longitude to an OS map reference and an OS map reference to latitude,longitude
 
-Perch is the HTTP wrapper for [Northern Pike](https://github.com/cookiescrumbs/northern-pike/)
-
 ![Perch](./perch.jpg "European Perch")
+
+
+European Perch is the HTTP wrapper for [Northern Pike](https://github.com/cookiescrumbs/northern-pike/)
+
+
+[OS Map Ref:HU2600048999 to latitude,longitude](https://still-waters-39747.herokuapp.com/api/v1/os-ref/HU2600048999)
+
+
+[latitude,longitude to OS Map Ref](https://still-waters-39747.herokuapp.com/api/v1/lat/60.22449375779038/lng/-1.5325017342359533)
+
 
 ## Development
 
