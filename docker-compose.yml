@@ -1,0 +1,19 @@
+version: '3.7'
+services:
+    api: 
+      build: 
+        context: .
+      ports:
+        - 4567:4567
+
+      working_dir: /api
+      volumes:
+        - ./app.rb:/api/app.rb   
+      environment:
+        APP_ENV: 
+        RACK_ENV:
+          
+      # https://stackoverflow.com/a/64629226
+      command: ruby app.rb -o 0.0.0.0  
+
+    
