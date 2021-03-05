@@ -36,11 +36,12 @@ RUN rbenv install 2.4.1 && rbenv global 2.4.1
 WORKDIR /api
 
 COPY ./app.rb .
+COPY ./os-maps.json .
 
 EXPOSE 4567
 
 # Install perch api dependecies - sintra-contrib is is needed for namespaces
-RUN gem install northern_pike -v 0.1.0 && gem install sinatra -v 2.1.0 && gem install puma -v 5.2.1 && gem install sinatra-contrib -v 2.1.0
+RUN gem install northern_pike -v 0.1.1 && gem install sinatra -v 2.1.0 && gem install puma -v 5.2.1 && gem install sinatra-contrib -v 2.1.0
 
 ENV APP_ENV 'production'
 ENV RACK_ENV 'production'
