@@ -44,13 +44,15 @@ https://still-waters-39747.herokuapp.com/api/v1/lat/60.22449375779038/lng/-1.532
 ## Deployment
 
 ```bash
+heroku login
+
+heroku container:login
+
 docker build -t european-perch:latest .
 
-docker tag european-perch registry.heroku.com/vast-bastion-09981/web
+docker tag european-perch registry.heroku.com/still-waters-39747/web
 
-docker push registry.heroku.com/vast-bastion-09981/web
-
-heroku login
+docker push registry.heroku.com/still-waters-39747/web
 
 heroku container:release web
 ```

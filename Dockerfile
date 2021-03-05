@@ -40,7 +40,7 @@ COPY ./os-maps.json .
 
 EXPOSE 4567
 
-# Install perch api dependecies - sintra-contrib is is needed for namespaces
+# Install perch api dependecies - sintra-contrib is needed for namespaces
 RUN gem install northern_pike -v 0.1.1 && gem install sinatra -v 2.1.0 && gem install puma -v 5.2.1 && gem install sinatra-contrib -v 2.1.0
 
 ENV APP_ENV 'production'
