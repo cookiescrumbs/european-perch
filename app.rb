@@ -9,7 +9,7 @@ require 'northern_pike'
 os_maps = JSON.parse(File.read(Dir.pwd + '/os-maps.json'))
 
 def point_in_bounding_box(p, bb)
-  (bb[0]['lat'] <= p[:lat] && p[:lat] <= bb[1]['lat'] && bb[0]['lng'] <= p[:lng] && p[:lng] <= bb[1]['lng'])? true : false
+  (bb[0]['lat'] <= p[:lat] && p[:lat] <= bb[1]['lat'] && bb[0]['lng'] <= p[:lng] && p[:lng] <= bb[1]['lng'])
 end
 
 
