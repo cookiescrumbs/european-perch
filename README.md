@@ -2,7 +2,7 @@
 
 An API that Converts latitude,longitude to an OS map reference and an OS map reference to latitude,longitude
 
-If you give it a latitude,longitude it'll tell you which OS map the point resides, along with some metadata about the map, as well as an OS map reference.
+If you give it a latitude,longitude it'll tell you which OS map the point resides in, along with some metadata about the map and an OS map reference for the point.
 
 ![Perch](./perch.jpg "European Perch")
 
